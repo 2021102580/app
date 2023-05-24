@@ -2,8 +2,6 @@
 #define myfunc_H
 #include <vector>
 
-//Lib.h
-
 namespace Lib {
 
 	extern void sortArray(std::vector <int>& arr);

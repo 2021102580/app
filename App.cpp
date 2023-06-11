@@ -4,7 +4,13 @@
 #include <vector>
 #include <Lib.h>
 
-// Main application
+/**
+  * @brief Основная точка входа в приложение.
+  *
+  * @param argc Количество аргументов командной строки.
+  * @param argv Массив аргументов командной строки.
+  * @return int Статус выхода приложения.
+  */
 int main(int argc, char* argv[]) {
     // Parse command-line arguments
     std::string inputFilename;

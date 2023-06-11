@@ -1,3 +1,7 @@
+/**
+ * @file Lib.cpp
+ * @brief Этот файл содержит реализации функций работы с массивами.
+ */
 #include "Lib.h"
 #include <algorithm>
 

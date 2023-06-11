@@ -1,3 +1,7 @@
+/**
+ * @file App.cpp
+ * @brief Этот файл содержит основное приложение
+ */
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -5,12 +9,14 @@
 #include <Lib.h>
 
 /**
-  * @brief Основная точка входа в приложение.
-  *
-  * @param argc Количество аргументов командной строки.
-  * @param argv Массив аргументов командной строки.
-  * @return int Статус выхода приложения.
-  */
+ * @brief Основная точка входа в приложение.
+ *
+ * @param argc Количество аргументов командной строки.
+ * 
+ * @param argv Массив аргументов командной строки.
+ * 
+ * @return int Статус выхода приложения.
+ */
 int main(int argc, char* argv[]) {
     // Parse command-line arguments
     std::string inputFilename;
